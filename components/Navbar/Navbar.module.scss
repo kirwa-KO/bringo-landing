@@ -1,0 +1,64 @@
+@import "../../imports/colors";
+
+.navbar {
+	justify-content: space-between;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	align-items: center;
+}
+.links {
+	display: flex;
+	align-items: center;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	button,
+	a {
+		margin-left: 36px;
+		svg {
+			// margin-left: 4px;
+		}
+	}
+	a:hover,
+	span:hover {
+		color: $mainColor;
+	}
+	a,
+	span,
+	button {
+		cursor: pointer;
+		font-size: 18px;
+	}
+}
+
+.logo {
+	img {
+		width: 146px;
+		height: 45px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.navbar {
+		// margin-top: -1rem;
+		padding: 16px 16px;
+		padding-bottom: 0px;
+	}
+	.logo {
+		img {
+			width: 92px !important;
+			height: 28px !important;
+		}
+	}
+	.links {
+		padding-right: 0;
+		a,
+		span,
+		button {
+			font-size: 12px;
+		}
+	}
+	.btn {
+		padding: 2px 12px;
+	}
+}

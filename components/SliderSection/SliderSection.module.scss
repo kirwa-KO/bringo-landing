@@ -1,0 +1,205 @@
+
+.slider {
+	height: 643px;
+}
+
+@media (max-width: 1024px) {
+	.slider {
+		height: 533px;
+	}
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+
+.sliderHeader {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	h1 {
+		font-weight: 600 !important;
+		font-size: 45px;
+		line-height: 60px;
+		padding-top: 62px;
+		text-transform: capitalize;
+	}
+	p,
+	h1 {
+		// max-width: 613px;
+		// max-width: 533px;
+		// font-weight: 400;
+	}
+	p {
+		font-size: 22px;
+		line-height: 28px;
+		font-weight: 300;
+		// margin-top: 32px;
+	}
+}
+
+.sliderHeader p,
+.sliderHeader h1,
+.btnContainer {
+	width: 450px;
+}
+
+
+.carousel-one {
+	background-image: url('/imgs/activities/chess.svg');
+}
+.carousel-two {
+	background-image: url('/imgs/activities/run.svg');
+}
+.carousel-three {
+	background-image: url('/imgs/activities/paint.svg');
+}
+.carousel-four {
+	background-image: url('/imgs/activities/football.svg');
+}
+
+.section-animate-typing {
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 3;
+	p {
+		font-size: 150%;
+	}
+}
+
+.carousel-one,
+.carousel-two,
+.carousel-three,
+.carousel-four {
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position-y: 50%;
+	background-position-x: 520%;
+}
+
+@media (max-width: 2300px) {
+	.carousel-one,
+	.carousel-two,
+	.carousel-three,
+	.carousel-four {
+		background-position-x: 80%;
+	}
+}
+
+@media (max-width: 2000px) {
+	.carousel-one,
+	.carousel-two,
+	.carousel-three,
+	.carousel-four {
+		background-position-x: 70%;
+	}
+}
+
+@media (max-width: 1600px) {
+	.carousel-one,
+	.carousel-two,
+	.carousel-three,
+	.carousel-four {
+		background-position-x: 65%;
+	}
+}
+
+
+@media (max-width: 1024px) {
+	.section-animate-typing {
+		display: none;
+	}
+
+	.overlay > div {
+		height: 100%;
+	}
+
+	.sliderHeader {
+		height: 92%;
+		align-items: center;
+		justify-content: flex-end;
+		h1 {
+			font-size: 28px;
+			line-height: 28px;
+			width: 280px;
+			text-align: center;
+		}
+		p,
+		h1 {
+			max-width: 613px;
+			font-weight: 400;
+		}
+		p {
+			font-size: 16px;
+			line-height: 20px;
+			text-align: center;
+		}
+	}
+
+	.btnContainer {
+		width: auto;
+	}
+
+	.carousel-one,
+	.carousel-two,
+	.carousel-three,
+	.carousel-four {
+		background-position-x: 50%;
+		background-size: 140%;
+		background-position-y: 0%;
+	}
+}
+
+@media (max-width: 850px) {
+	.carousel-one,
+	.carousel-two,
+	.carousel-three,
+	.carousel-four {
+		background-size: 160%;
+	}
+}
+
+@media (max-width: 750px) {
+	.carousel-one,
+	.carousel-two,
+	.carousel-three,
+	.carousel-four {
+		background-size: 180%;
+	}
+}
+
+
+@media (max-width: 650px) {
+	.carousel-one,
+	.carousel-two,
+	.carousel-three,
+	.carousel-four {
+		background-size: 200%;
+	}
+}
+
+@media (max-width: 550px) {
+	.carousel-one,
+	.carousel-two,
+	.carousel-three,
+	.carousel-four {
+		background-size: 250%;
+	}
+}
+
+
+@media (max-width: 450px) {
+	.carousel-one,
+	.carousel-two,
+	.carousel-three,
+	.carousel-four {
+		background-size: 300%;
+	}
+}

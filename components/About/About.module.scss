@@ -1,0 +1,46 @@
+@import "../../imports/colors";
+
+.aboutContainer {
+	margin-bottom: 20px;
+}
+
+.values,
+.story {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	h5 {
+		font-weight: 600;
+		font-size: $lgTextSize;
+		line-height: $lgLineHeight;
+		text-transform: capitalize;
+		margin-bottom: 26px;
+	}
+	p {
+		font-weight: 300;
+		font-size: 20px;
+		line-height: 26px;
+	}
+}
+
+.values {
+	// margin-top: 42px;
+}
+
+.story {
+	margin-top: 42px;
+}
+
+@media (max-width: 1024px) {
+	.values,
+	.story {
+		h5 {
+			font-size: $smTextSize;
+			line-height: $smLineHeight;
+			margin-bottom: 16px;
+		}
+		p {
+			font-size: $aboutParagraphSize;
+			line-height: $aboutParagraphLineHeight;
+		}
+	}
+}
