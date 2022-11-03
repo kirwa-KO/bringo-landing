@@ -24,7 +24,7 @@ function Navbar() {
 					<a href="https://bit.ly/bringo-roadmap" target="_blank" rel="noreferrer">
 						Roadmap
 					</a>
-					<a href="https://app.bringo.club/" target="_blank" rel="noreferrer">
+					<a href="https://app.bringo.club/register" target="_blank" rel="noreferrer">
 						<button className={`main-btn ${styles.btn}`}>
 							Join us <LeftArrow />
 						</button>
